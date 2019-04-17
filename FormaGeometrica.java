@@ -22,7 +22,7 @@ class FormaGeometrica{
 	public int getY (){
 		return this.y;
 		
-	}
+	}	
 
 
 	public void imprime (){

@@ -1,21 +1,21 @@
 import java.util.Scanner;
 
 
-class cuzão
+class main
 {
 	public static void main (String []args)
 	{
 		Scanner input = new Scanner (System.in);
-		Autor autor1 = new Autor ();
+		Data Dt = new Data ();
+
 		
-		
-		carregaDoTeclado.nome();
-		
-	
-		System.out.println("nome: " + autor1.nome + " idade: " + autor1.id);	
-		
-		
-		
+		Dt.dia(input.nextLine());
+		Dt.mes(input.nextLine());
+		Dt.ano(input.nextLine());
+		Dt.hora(input.nextLine());
+		Dt.minutos(input.nextLine());
+
+
 	}
 
 }
